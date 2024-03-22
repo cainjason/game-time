@@ -1,11 +1,14 @@
 import "./App.css";
+import Body from "./Components/Body";
+import Header from "./Components/Header";
+import Sidenav from "./Components/Sidenav";
 
 function App() {
   return (
     <div className="app">
-      <h1 class="text-3xl bg-green-300 text-red-500 font-bold underline">
-        Hello world!
-      </h1>
+      <Header />
+      <Sidenav />
+      <Body />
     </div>
   );
 }
